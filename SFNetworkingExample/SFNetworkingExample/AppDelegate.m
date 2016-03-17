@@ -18,8 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [SFNetworking setKey:@"ddd"];
-    [SFNetworking getWithBaseURL:@"dd" path:@"ddd" parameters:@{@"d": @"ddd"} completion:nil failure:nil];
+
     return YES;
 }
 

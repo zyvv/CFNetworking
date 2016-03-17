@@ -47,5 +47,30 @@ typedef void (^FailureBlock)(NSError *error);
 + (void)postWithBaseURL:(NSString *)baseURL path:(NSString *)path parameters: (NSDictionary *)parameters completion:(CompletionBlock)completion failure:(FailureBlock)failure;
 
 
+/**
+ *  GET请求(以前的方式)
+ *
+ *  @param baseURL    host
+ *  @param path       path
+ *  @param parameters 参数
+ *  @param completion 成功回调（不能为空）
+ *  @param failure    失败回调
+ */
++ (void)old_getWithBaseURL:(NSString *)baseURL path:(NSString *)path parameters: (NSDictionary *)parameters completion:(CompletionBlock)completion failure:(FailureBlock)failure;
+
+
+/**
+ *  POST(以前的方式)
+ *
+ *  @param baseURL    host
+ *  @param path       path
+ *  @param parameters 参数
+ *  @param completion 成功回调（不能为空）
+ *  @param failure    失败回调
+ */
++ (void)old_postWithBaseURL:(NSString *)baseURL path:(NSString *)path parameters: (NSDictionary *)parameters completion:(CompletionBlock)completion failure:(FailureBlock)failure;
+
+
+
 
 @end
