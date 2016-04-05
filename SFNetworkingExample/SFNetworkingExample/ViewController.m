@@ -20,7 +20,7 @@
 
     [SFNetworking setKey:@"key"];
     
-    [SFNetworking getWithBaseURL:@"host" path:@"path" parameters:@{@"paramKey": @"paramValue"} completion:^(id data) {
+    [SFNetworking old_getWithBaseURL:@"host" path:@"path" parameters:@{@"paramKey": @"paramValue"} completion:^(id data) {
         
     } failure:^(NSError *error) {
         

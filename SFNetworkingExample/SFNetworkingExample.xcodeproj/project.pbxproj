@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		449E2EB51CB41063005E34B4 /* SFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 449E2EB41CB41063005E34B4 /* SFNetworking.m */; };
 		77856848832FB4E789BE08DD /* libPods-SFNetworkingExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55115D4F8BE46AD71065129F /* libPods-SFNetworkingExample.a */; };
-		DB671A4F1C9A7F65002FB5B9 /* SFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DB671A4E1C9A7F65002FB5B9 /* SFNetworking.m */; };
 		DBD98C2F1C98EBE9008884F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD98C2E1C98EBE9008884F2 /* main.m */; };
 		DBD98C321C98EBE9008884F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD98C311C98EBE9008884F2 /* AppDelegate.m */; };
 		DBD98C351C98EBE9008884F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD98C341C98EBE9008884F2 /* ViewController.m */; };
@@ -29,10 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		449E2EB31CB41063005E34B4 /* SFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFNetworking.h; path = ../../SFNetWorking/SFNetworking.h; sourceTree = "<group>"; };
+		449E2EB41CB41063005E34B4 /* SFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFNetworking.m; path = ../../SFNetWorking/SFNetworking.m; sourceTree = "<group>"; };
 		55115D4F8BE46AD71065129F /* libPods-SFNetworkingExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SFNetworkingExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D86898BD15EE16CD8FB13FFF /* Pods-SFNetworkingExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFNetworkingExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SFNetworkingExample/Pods-SFNetworkingExample.debug.xcconfig"; sourceTree = "<group>"; };
-		DB671A4D1C9A7F65002FB5B9 /* SFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFNetworking.h; path = ../../SFNetWorking/SFNetworking.h; sourceTree = "<group>"; };
-		DB671A4E1C9A7F65002FB5B9 /* SFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFNetworking.m; path = ../../SFNetWorking/SFNetworking.m; sourceTree = "<group>"; };
 		DBD98C2A1C98EBE8008884F2 /* SFNetworkingExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFNetworkingExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD98C2E1C98EBE9008884F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DBD98C301C98EBE9008884F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -134,8 +134,8 @@
 		DBD98C521C98EC43008884F2 /* SFNetWorking */ = {
 			isa = PBXGroup;
 			children = (
-				DB671A4D1C9A7F65002FB5B9 /* SFNetworking.h */,
-				DB671A4E1C9A7F65002FB5B9 /* SFNetworking.m */,
+				449E2EB31CB41063005E34B4 /* SFNetworking.h */,
+				449E2EB41CB41063005E34B4 /* SFNetworking.m */,
 			);
 			path = SFNetWorking;
 			sourceTree = SOURCE_ROOT;
@@ -301,8 +301,8 @@
 			files = (
 				DBD98C351C98EBE9008884F2 /* ViewController.m in Sources */,
 				DBD98C321C98EBE9008884F2 /* AppDelegate.m in Sources */,
-				DB671A4F1C9A7F65002FB5B9 /* SFNetworking.m in Sources */,
 				DBD98C2F1C98EBE9008884F2 /* main.m in Sources */,
+				449E2EB51CB41063005E34B4 /* SFNetworking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +433,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SFNetworkingExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sunarvr.com.SFNetworkingExample;
+				PRODUCT_BUNDLE_IDENTIFIER = zyvv.github.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -445,7 +445,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SFNetworkingExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sunarvr.com.SFNetworkingExample;
+				PRODUCT_BUNDLE_IDENTIFIER = zyvv.github.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
